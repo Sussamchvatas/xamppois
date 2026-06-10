@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tabulka {
+    width: 700px;
+    margin: auto;
+}
+
+.hlavicka,
+.radek {
+    display: flex;
+}
+
+.hlavicka {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.hlavicka div,
+.radek div {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.radek:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.radek:hover {
+    background-color: #dbeafe;
+}
